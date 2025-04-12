@@ -1,3 +1,4 @@
+from sklearn.metrics import accuracy_score
 from sklearn.externals import joblib
 import pandas as pd
 import numpy as np
