@@ -7,7 +7,7 @@ import streamlit as st
 model = joblib.load('gbs_model.pkl')
 
 # Set page title
-st.title("Guillain-Barré Syndrome (GBS) Diagnosis Predictor")
+st.title("Guillain-Barre Syndrome (GBS) Diagnosis Predictor")
 
 # Sidebar info
 st.sidebar.write("Provide patient details and nerve test values.")
